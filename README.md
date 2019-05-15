@@ -12,19 +12,53 @@ Softwares and technologies described in this section have been used in the IA2 D
 
 The following table collects system requirements and main features of the technologies described in details below.
 
--------------------------------------------------------------------------------------------------------------------------
-Technology      System Requirements                Main Features
---------------- ---------------------------------- ----------------------------------------------------------------------
-SAML2.0         - Deployment of IdP and SP \       Common XML-based open-standard to exchange authentication and authorisation data to address Web SSO issues. It can deal with any authentication method.
-                - Authentication method
-
-SimpleSAMLphp   - PHP version >= 5.3.0 \  \  \     Lightweight open-source application that deals with authentication. Easy to configure, it supports several identity protocols and framework.
-                - Apache >= 2.2
-
-Grouper         - Java >= 7  \  \  \  \  \  \      An enterprise access management system able to retrieve user information from multiple sources. It provides a web user interface, web services and an administration shell.
-                - Tomcat >= 6 \  \  \  \  \
-                - A RDBMS supported by Hibernate   
--------------------------------------------------------------------------------------------------------------------------
+<table><tbody><tr><td>
+<strong>Technology</strong>
+</td>
+<td>
+<strong>System Requirements</strong>
+</td>
+<td>
+<strong>Main Features</strong>
+</td>
+</tr><tr><td>
+SAML2.0
+</td>
+<td>
+<ul>
+<li>Deployment of IdP and SP</li>
+<li>Authentication method</span></li>
+</ul>
+</td>
+<td>
+<p>Common XML-based open-standard to exchange authentication and authorisation data to address Web SSO issues. It can deal with any authentication method.</p>
+</td>
+</tr><tr><td>
+SimpleSAMLphp
+</td>
+<td>
+<ul>
+<li>PHP version &gt;= 5.3.0</li>
+<li>Apache &gt;= 2.2</li>
+</ul>
+</td>
+<td>
+Lightweight open-source application that deals with authentication. Easy to configure, it supports several identity protocols and framework.
+</td>
+</tr><tr><td>
+Grouper
+</td>
+<td>
+<ul>
+<li>Java &gt;= 7</li>
+<li>Tomcat &gt;= 6</li>
+<li>A RDBMS supported by Hibernate</li>
+</ul>
+</td>
+<td>
+<p>An enterprise access management system able to retrieve user information from multiple sources. It provides a web user interface, web services and an administration shell.</p>
+</td>
+</tr></tbody></table>
 
 
 ## SAML2.0
